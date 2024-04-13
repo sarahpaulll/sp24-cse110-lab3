@@ -37,7 +37,7 @@
         </section>
         <hr>    
         <section id="brainstorm">
-            <h3 id="brainstorm">Brainstorm Features</h3>
+            <h3>Brainstorm Features</h3>
             <ol>
                 <li>Notification Alerts</li>
                 <li>Pause and Resume</li>
@@ -48,7 +48,7 @@
         </section>
         <br>
         <section id="identify">
-            <h3 id="identify">Identify Potential Challenges</h3>
+            <h3">Identify Potential Challenges</h3>
             <ol>
                 <li>
                     <b>Accuracy:</b>
@@ -62,8 +62,7 @@
         </section>
         <br>
         <section id="roles">
-            <h3 id="roles"> Assign Roles and Tasks</h3>
-            <ul>
+            <h3> Assign Roles and Tasks</h3>
                 <details>
                     <summary><b>John Doe:</b> <i>Project Manager</i></summary>
                     <ul>
@@ -90,7 +89,6 @@
                         <li>Make it easy to use and accesible</li>
                     </ul>
                 </details>       
-            </ul>
 
         </section>
         <br><br>
@@ -106,74 +104,69 @@
         <br>
         <hr>
     </main>
-  </body>
-  <footer>
-    <div class="form">
-        <form>
-            <fieldset>
-                <legend><b>Interest Form</b></legend>
+    <footer>
+        <div class="form">
+            <form>
                 <fieldset>
-                    <legend><b>Information</b></legend>
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="id"><br>
-                    <label for="phone">Phone Number:</label>
-                    <input type="text" id="phone" name="phone"><br>
-                    <label for="type">Best Form of Contact:</label>
-                    <input list="type" name="type">
-                    <datalist id="type">
-                        <option value="Email">
-                        <option value="Phone">
-                        <option value="Either">
-                    </datalist><br>
-                    <label for="role">Which Roles Interest You:</label><br>
-                    <select name="role" multiple>
-                        <option value="Developer">Developer</option>
-                        <option value="Design">Designer</option>
-                        <option value="Debugging">Debugger</option>
-                        <option value="Tester">Tester</option>
-                    </select><br>
-                    <label for="date">Today's Date</label>
-                    <input type="date" id="date" name="date">
-                
-                </fieldset>
-        
-                <fieldset>
-                    <legend><b>Did You Read Meeting Minutes</b></legend>
-                    <input type="radio" id="Yes" name="read" value="Y">
-                    <label for="Yes">Yes</label>
-                    <br>
-                    <input type="radio" id="No" name="read" value="N">
-                    <label for="No">No</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend><b>Feedback</b></legend>
-                    <label>What are potential features did you like?</label>
-                    <ul>
+                    <legend><b>Interest Form</b></legend>
+                    <fieldset>
+                        <legend><b>Information</b></legend>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="id"><br>
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" name="phone"><br>
+                        <label>Best Form of Contact:</label>
+                        <input list="type" name="type">
+                        <datalist id="type">
+                            <option value="Email">
+                            <option value="Phone">
+                            <option value="Either">
+                        </datalist><br>
+                        <label>Which Roles Interest You:</label><br>
+                        <select name="role" multiple>
+                            <option value="Developer">Developer</option>
+                            <option value="Design">Designer</option>
+                            <option value="Debugging">Debugger</option>
+                            <option value="Tester">Tester</option>
+                        </select><br>
+                        <label for="date">Today's Date</label>
+                        <input type="date" id="date" name="date">
+                    
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend><b>Did You Read Meeting Minutes</b></legend>
+                        <input type="radio" id="Yes" name="read" value="Y">
+                        <label for="Yes">Yes</label>
+                        <br>
+                        <input type="radio" id="No" name="read" value="N">
+                        <label for="No">No</label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend><b>Feedback</b></legend>
+                        <label>What are potential features did you like?</label>
                         <input type="checkbox" id="notif" name="like" value="Notification Alerts">
                         <label for="notif">Notification Alerts</label>
-                        <br>
                         <input type="checkbox" id="pause" name="like" value="Pause and Resume">
                         <label for="pause">Pause and Resume</label>
-                        <br>
                         <input type="checkbox" id="customizable" name="like" value="Customizable Intervals">
                         <label for="customizable">Customizable Intervals</label>
-                        <br>
                         <input type="checkbox" id="stats" name="like" value="Statistics">
-                        <label for="stats">Statistics</label>
-                    </ul>
-                    <label for="feedback">Other Ideas and Feedback:</label>
-                    <textarea id="feadback" name="feedback" rows="4" columns="50"></textarea>
-                </fieldset>  
-                <button type="Submit"><strong>Submit</strong></button>
-            </fieldset>
+                        <label for="stats">Statistics</label><br>
+                        <label>Other Ideas and Feedback:</label>
+                        <textarea id="feadback" name="feedback" rows="4"></textarea>
+                    </fieldset>  
+                    <button type="Submit"><strong>Submit</strong></button>
+                </fieldset>
+            
+            </form>
+        </div>
         
-        </form>
-    </div>
-    
-  </footer>
+      </footer>
+  </body>
 </html>
