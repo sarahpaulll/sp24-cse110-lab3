@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Notes: Pomodoro Timer</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+  </head>
+  <body>
+    <header>
+        <h1>Meeting Notes: Pomodoro Timer</h1>
+        <h2>Brainstorming</h2>
+        <h3>Date: 04/09/24</h3>
+    </header>
+    <hr>
+
+    <main>
+        <section id="attendence">
+            <h3>Attendence:</h3>
+            <ul>
+                <li>John Doe</li>
+                <li>Emma Smith</li>
+                <li>Charles Murphey</li>
+            </ul>
+        </section>
+        <section id="agenda">
+            <h3>Agenda:</h3>
+            <nav>
+                <ul>
+                    <li><a href="#brainstorm">Brainstorm Features</a></li>
+                    <li><a href="identify">Identify Potential Challenges</a></li>
+                    <li><a href="roles">Assign Roles and Tasks</a></li>
+
+                </ul>
+            </nav>
+        </section>
+        <hr>    
+        <section id="brainstorm">
+            <h3 id="brainstorm">Brainstorm Features</h3>
+            <ol>
+                <li>Notification Alerts</li>
+                <li>Pause and Resume</li>
+                <li>Customizable Intervals</li>
+                <li>Statistics</li>
+            </ol>
+            <img src="PT.png" alt="Pomodoro Timer" width="600">
+        </section>
+        <br>
+        <section id="identify">
+            <h3 id="identify">Identify Potential Challenges</h3>
+            <ol>
+                <li>
+                    <b>Accuracy:</b>
+                    <p>Ensuring <em>precise</em> timing may be difficult</p>
+                </li>
+                <li>
+                    <b>User Interaction:</b>
+                    <p>Want to have enough customizable features so the user can enjoy it to their liking <strong>but not too many</strong> where it confuses the user and harms their experience</p>
+                </li>
+            </ol>
+        </section>
+        <br>
+        <section id="roles">
+            <h3 id="roles"> Assign Roles and Tasks</h3>
+            <ul>
+                <details>
+                    <summary><b>John Doe:</b> <i>Project Manager</i></summary>
+                    <ul>
+                        <li>Define project goals</li>
+                        <li>Plan project timeline</li>
+                        <li>Coordinate communication</li>
+                        <li>Monitor progress</li>
+                    </ul>
+                </details>
+                <br>
+                <details>
+                    <summary><span><b>Emma Smith:</b></span> <span><i>Developer</i></span></summary>
+                    <ul>
+                        <li>Develop the Pomodoro Timer</li>
+                        <li>Implement timer functios</li>
+                        <li>Handle user input</li>
+                    </ul>
+                </details>              
+                <br>
+                <details>
+                    <summary><b>Charles Murphey:</b> <i>Designer</i></summary>
+                    <ul>
+                        <li>Design the look of the application</li>
+                        <li>Make it easy to use and accesible</li>
+                    </ul>
+                </details>       
+            </ul>
+
+        </section>
+        <br><br>
+        <hr>
+        <video width="400" height="240" controls>
+            <source src="ocean.mp4" type="video/mp4">
+        </video>
+        <br>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <br>
+        <hr>
+    </main>
+  </body>
+  <footer>
+    <div class="form">
+        <form>
+            <fieldset>
+                <legend><b>Interest Form</b></legend>
+                <fieldset>
+                    <legend><b>Information</b></legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="id"><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone"><br>
+                    <label for="type">Best Form of Contact:</label>
+                    <input list="type" name="type">
+                    <datalist id="type">
+                        <option value="Email">
+                        <option value="Phone">
+                        <option value="Either">
+                    </datalist><br>
+                    <label for="role">Which Roles Interest You:</label><br>
+                    <select name="role" multiple>
+                        <option value="Developer">Developer</option>
+                        <option value="Design">Designer</option>
+                        <option value="Debugging">Debugger</option>
+                        <option value="Tester">Tester</option>
+                    </select><br>
+                    <label for="date">Today's Date</label>
+                    <input type="date" id="date" name="date">
+                
+                </fieldset>
+        
+                <fieldset>
+                    <legend><b>Did You Read Meeting Minutes</b></legend>
+                    <input type="radio" id="Yes" name="read" value="Y">
+                    <label for="Yes">Yes</label>
+                    <br>
+                    <input type="radio" id="No" name="read" value="N">
+                    <label for="No">No</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend><b>Feedback</b></legend>
+                    <label>What are potential features did you like?</label>
+                    <ul>
+                        <input type="checkbox" id="notif" name="like" value="Notification Alerts">
+                        <label for="notif">Notification Alerts</label>
+                        <br>
+                        <input type="checkbox" id="pause" name="like" value="Pause and Resume">
+                        <label for="pause">Pause and Resume</label>
+                        <br>
+                        <input type="checkbox" id="customizable" name="like" value="Customizable Intervals">
+                        <label for="customizable">Customizable Intervals</label>
+                        <br>
+                        <input type="checkbox" id="stats" name="like" value="Statistics">
+                        <label for="stats">Statistics</label>
+                    </ul>
+                    <label for="feedback">Other Ideas and Feedback:</label>
+                    <textarea id="feadback" name="feedback" rows="4" columns="50"></textarea>
+                </fieldset>  
+                <button type="Submit"><strong>Submit</strong></button>
+            </fieldset>
+        
+        </form>
+    </div>
+    
+  </footer>
+</html>
