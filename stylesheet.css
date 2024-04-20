@@ -4,7 +4,7 @@
 
 .form {
     color: color(display-p3 0 0 0);
-    
+    display: block
 }
 
 h1 {
@@ -39,9 +39,10 @@ body, header {
     border-color: blue;
     border-width: 0.25em;
     border-radius: 1mm;
-    text-align: left
-
+    text-align: left;
+    display: block;
 }
+
 
 a[brainstorm] {
     &:hover{
@@ -81,6 +82,7 @@ h3:has(+ details) {
     border-color: blue;
     border-width: 0.1cm;
     border-radius: 0.5in;
+    display: inline-block
 
 }
 
