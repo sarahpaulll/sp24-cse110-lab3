@@ -21,7 +21,7 @@ h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* create a box around it */
     margin: auto;
-    padding: 0.5in, 0.5in, 0.5in, 0.5in;
+    padding: 0.5in 0.5in 0.5in 0.5in;
     border-style: groove;
     border-color: var(--main-color);
     border-width: 0.1em;
