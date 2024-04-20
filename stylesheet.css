@@ -30,7 +30,7 @@ h1 {
     position: relative;
 }
 
-/* Modify the text iin the body and header */
+/* Modify the text in the body and header */
 body, header {
     color: hsl(228, 79%, 37%);
     text-align: left;
@@ -46,11 +46,12 @@ body, header {
     padding-left: 1em;
     padding-top: 10px;
     padding-bottom: 1%;
-    padding-right: 1em;
+    padding-right: 5em;
+    padding-left: 3em;
     border-style: solid;
     border-color: blue;
     border-width: 0.25em;
-    border-radius: 0.1in;
+    border-radius: 0in;
     text-align: left;
     display: block;
     max-width: 20%;
