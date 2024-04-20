@@ -5,7 +5,11 @@
 .form {
     color: color(display-p3 0 0 0);
     display: block;
-    width: 80%
+    width: 50vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    &:hover {
+        color: green;
+    }
 }
 
 h1 {
@@ -20,6 +24,7 @@ h1 {
     border-radius:10pt;
     min-width: 50%;
     position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -42,7 +47,7 @@ body, header {
     border-style: solid;
     border-color: blue;
     border-width: 0.25em;
-    border-radius: 1mm;
+    border-radius: 0.1in;
     text-align: left;
     display: block;
     max-width: 20%;
@@ -98,8 +103,8 @@ section ~  hr{
     border-color: var(--main-color)
 }
 
-legend.form {
-    
+label.form {
+   color: black;
 }
 
 h3:has(+ details) {
@@ -108,10 +113,10 @@ h3:has(+ details) {
     padding: 1em 1em 1em 1em;
     border-style: double;
     border-color: blue;
-    border-width: 0.1cm;
+    border-width: 0.07in;
     border-radius: 0.5in;
     display: inline-block;
-    height: 12pt;
+    height: 4vh;
     position: static;
     text-align: center;
 
