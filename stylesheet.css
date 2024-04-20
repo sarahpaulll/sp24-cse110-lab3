@@ -1,0 +1,55 @@
+
+* {
+
+}
+
+.form {
+    option {
+    
+    }
+}
+
+h1 {
+
+}
+
+body, header {
+
+}
+
+#attendence {
+
+}
+
+a[brainstorm] {
+
+}
+
+button:hover {
+
+}
+
+h3 li {
+
+}
+
+li > p {
+
+}
+
+body + h3 {
+
+}
+
+body ~ hr {
+
+}
+
+legend.form {
+
+}
+
+h3:has(+ details) {
+
+}
+
