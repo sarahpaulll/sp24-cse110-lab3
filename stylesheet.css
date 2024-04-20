@@ -3,27 +3,30 @@
 }
 
 .form {
-    background-color: var(--main-color);
-    color: color(display-p3 0 0 0);
-    & #date {
-
-    }
+    color: color(display-p3 0 0 0)
+    
 }
 
 h1 {
-    color: rgb(114, 21, 165)
+    color: rgb(114, 21, 165);
+    text-align: center;
+    text-decoration: underline;
 }
 
 body, header {
     color: hsl(228, 79%, 37%);
+    text-align: left;
 }
 
+
 #attendence {
-    
+   
 }
 
 a[brainstorm] {
-
+    & > li {
+        
+    }
 }
 
 button:hover {
@@ -51,7 +54,7 @@ legend.form {
 }
 
 h3:has(+ details) {
-    color: var(--main-color);
+    text-decoration: underline;
 }
 
 :root{
