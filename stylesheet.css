@@ -4,7 +4,8 @@
 
 .form {
     color: color(display-p3 0 0 0);
-    display: block
+    display: block;
+    width: 80%
 }
 
 h1 {
@@ -16,7 +17,9 @@ h1 {
     border-style: groove;
     border-color: var(--main-color);
     border-width: 0.1em;
-    border-radius:10pt
+    border-radius:10pt;
+    min-width: 50%;
+
 }
 
 body, header {
@@ -41,6 +44,7 @@ body, header {
     border-radius: 1mm;
     text-align: left;
     display: block;
+    max-width: 20%;
 }
 
 
@@ -82,7 +86,8 @@ h3:has(+ details) {
     border-color: blue;
     border-width: 0.1cm;
     border-radius: 0.5in;
-    display: inline-block
+    display: inline-block;
+    height: 12pt;
 
 }
 
