@@ -49,14 +49,17 @@ body, header {
 }
 
 
-a[brainstorm] {
-    & :hover {
-
-    }
+a:active {
+    color: green;
 }
-
+input[type="text"]{
+    color: green;
+}
 button:hover {
-
+    color: blue
+}
+.form:active {
+    box-shadow: 2px 2px 5px #fc894d;
 }
 
 #agenda + hr {
