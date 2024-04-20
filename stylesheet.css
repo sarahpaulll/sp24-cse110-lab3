@@ -19,6 +19,7 @@ h1 {
     border-width: 0.1em;
     border-radius:10pt;
     min-width: 50%;
+    position: relative;
 
 }
 
@@ -49,7 +50,7 @@ body, header {
 
 
 a[brainstorm] {
-    &:hover{
+    & :hover {
 
     }
 }
@@ -58,12 +59,14 @@ button:hover {
 
 }
 
-h3 + li {
-   
+#agenda + hr {
+   border-color: purple;
+   border-width: 2pt;
 }
 
 li > p {
     color: black;
+    position: sticky;
 }
 
 body  h3 {
@@ -88,6 +91,7 @@ h3:has(+ details) {
     border-radius: 0.5in;
     display: inline-block;
     height: 12pt;
+    position: static;
 
 }
 
