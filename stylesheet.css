@@ -5,8 +5,8 @@
 
 .form {
     background-color: var(--main-color);
-    option {
-    
+    #date {
+
     }
 }
 
@@ -15,11 +15,12 @@ h1 {
 }
 
 body, header {
+   background-color: #d3d3d3;
 
 }
 
 #attendence {
-
+   
 }
 
 a[brainstorm] {
