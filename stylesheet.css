@@ -48,6 +48,23 @@ body, header {
     max-width: 20%;
 }
 
+#agenda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-shrink: 3;
+
+}
+
+#roles {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto; 
+    column-gap: 20px;
+    row-gap: 15px;
+    justify-content:space-around;
+}
 
 a:active {
     color: green;
@@ -70,6 +87,7 @@ button:hover {
 li > p {
     color: black;
     position: sticky;
+
 }
 
 body  h3 {
@@ -95,6 +113,7 @@ h3:has(+ details) {
     display: inline-block;
     height: 12pt;
     position: static;
+    text-align: center;
 
 }
 
