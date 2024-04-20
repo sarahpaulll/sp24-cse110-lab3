@@ -3,7 +3,7 @@
 }
 
 .form {
-    color: color(display-p3 0 0 0)
+    color: color(display-p3 0 0 0);
     
 }
 
@@ -11,21 +11,41 @@ h1 {
     color: rgb(114, 21, 165);
     text-align: center;
     text-decoration: underline;
+    margin: auto;
+    padding: 0.5in, 0.5in, 0.5in, 0.5in;
+    border-style: groove;
+    border-color: var(--main-color);
+    border-width: 0.1em;
+    border-radius:10pt
 }
 
 body, header {
     color: hsl(228, 79%, 37%);
     text-align: left;
+   
 }
 
 
 #attendence {
-   
+    margin-top: 10px;
+    margin-bottom: 10%;
+    margin-left: 0px;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    padding-right: 1em;
+    border-style: solid;
+    border-color: blue;
+    border-width: 0.25em;
+    border-radius: 1mm;
+    text-align: left
+
 }
 
 a[brainstorm] {
-    & > li {
-        
+    &:hover{
+
     }
 }
 
@@ -34,7 +54,7 @@ button:hover {
 }
 
 h3 + li {
-
+   
 }
 
 li > p {
@@ -55,6 +75,13 @@ legend.form {
 
 h3:has(+ details) {
     text-decoration: underline;
+    margin: 10px 10px 10px 10px;
+    padding: 1em 1em 1em 1em;
+    border-style: double;
+    border-color: blue;
+    border-width: 0.1cm;
+    border-radius: 0.5in;
+
 }
 
 :root{
