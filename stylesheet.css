@@ -1,7 +1,8 @@
+/* Add unvirsal selector to create backgound color */
 * {
     background-color: #d3d3d3
 }
-
+/* Edit the display of the form*/
 .form {
     color: color(display-p3 0 0 0);
     display: block;
@@ -11,11 +12,14 @@
         color: green;
     }
 }
-
+/*Edit the title*/
 h1 {
+    /* Modify the text*/
     color: rgb(114, 21, 165);
     text-align: center;
     text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* create a box around it */
     margin: auto;
     padding: 0.5in, 0.5in, 0.5in, 0.5in;
     border-style: groove;
@@ -24,17 +28,16 @@ h1 {
     border-radius:10pt;
     min-width: 50%;
     position: relative;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
+/* Modify the text iin the body and header */
 body, header {
     color: hsl(228, 79%, 37%);
     text-align: left;
    
 }
 
-
+/* Create a border around the attendance */
 #attendence {
     margin-top: 10px;
     margin-bottom: 10%;
@@ -53,6 +56,7 @@ body, header {
     max-width: 20%;
 }
 
+/*Add a flex display for agenda */
 #agenda {
     display: flex;
     flex-direction: row;
@@ -61,7 +65,7 @@ body, header {
     flex-shrink: 3;
 
 }
-
+/* Add a grid display for roles */
 #roles {
     display: grid;
     grid-template-columns: auto;
@@ -71,42 +75,54 @@ body, header {
     justify-content:space-around;
 }
 
+/* Edit the links in the agenda */
 a:active {
     color: green;
 }
+
+/* Change the color of the input text in the form */
 input[type="text"]{
     color: green;
 }
+
+/* Create a color for when the submit button is hovered over */
 button:hover {
     color: blue
 }
+
+/* Create a shadow for when the form is active */
 .form:active {
     box-shadow: 2px 2px 5px #fc894d;
 }
 
+/* Change the color and width of the horizontal line after agenda */
 #agenda + hr {
    border-color: purple;
    border-width: 2pt;
 }
-
+/* Modify the display of the paragraphs inside lists */
 li > p {
     color: black;
     position: sticky;
 
 }
-
+/* Change the color of the headings h3 in the body */
 body  h3 {
     color: color-mix(in lch, rgb(43,43,186), rgb(178, 178, 118))
 }
 
+
+/* change the color of all of the horizontal lines */
 section ~  hr{
     border-color: var(--main-color)
 }
 
+/* Modify the color of the text in the form that is a label */
 label.form {
    color: black;
 }
 
+/* Create a border around the heading that has details */
 h3:has(+ details) {
     text-decoration: underline;
     margin: 10px 10px 10px 10px;
@@ -122,6 +138,7 @@ h3:has(+ details) {
 
 }
 
+/* Define a fallback */
 :root{
     --main-color: lightblue;
 }
