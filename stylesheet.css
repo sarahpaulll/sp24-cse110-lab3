@@ -1,26 +1,25 @@
-
 * {
-
+    background-color: #d3d3d3
 }
 
 .form {
     background-color: var(--main-color);
-    #date {
+    color: color(display-p3 0 0 0);
+    & #date {
 
     }
 }
 
 h1 {
-
+    color: rgb(114, 21, 165)
 }
 
 body, header {
-   background-color: #d3d3d3;
-
+    color: hsl(228, 79%, 37%);
 }
 
 #attendence {
-   
+    
 }
 
 a[brainstorm] {
@@ -31,28 +30,28 @@ button:hover {
 
 }
 
-h3 li {
+h3 + li {
 
 }
 
 li > p {
-
+    color: black;
 }
 
-body + h3 {
-
+body  h3 {
+    color: color-mix(in lch, rgb(43,43,186), rgb(178, 178, 118))
 }
 
-body ~ hr {
-
+section ~  hr{
+    border-color: var(--main-color)
 }
 
 legend.form {
-
+    
 }
 
 h3:has(+ details) {
-
+    color: var(--main-color);
 }
 
 :root{
